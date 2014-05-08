@@ -85,7 +85,7 @@
 		51F2BF4916354C2691F9E8D7 /* Pods-AdviseMe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdviseMe-resources.sh"; sourceTree = "<group>"; };
 		52D0EE688ACC4998A6A46974 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		57157B868CB44EEB953AF70A /* Pods-AdviseMe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdviseMe.xcconfig"; sourceTree = "<group>"; };
-		59405684525348188D6FE650 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59405684525348188D6FE650 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		5BD1BB1F65FF4509B7505E0C /* Pods-AdviseMe-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdviseMe-AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		5CE3898BC81240CDA6258856 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		60E13223CD9941B1833B6151 /* libPods-AdviseMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdviseMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +178,6 @@
 				CC979FB949CB4DE98D143BDC /* Support Files */,
 				D66019AC8E504E5FB39D43FA /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -403,8 +402,6 @@
 			mainGroup = A132437AEFFC422FB1D2FBAD;
 			productRefGroup = C30A5F933DC9422AA564FD19 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				17D2A81C81AE4039BCD15FA5 /* Pods-AdviseMe */,

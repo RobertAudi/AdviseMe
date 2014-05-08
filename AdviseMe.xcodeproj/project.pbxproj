@@ -15,8 +15,8 @@
 		D46DF705191A9B3E00CEB7B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DF704191A9B3E00CEB7B0 /* main.m */; };
 		D46DF709191A9B3E00CEB7B0 /* AMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DF708191A9B3E00CEB7B0 /* AMAppDelegate.m */; };
 		D46DF70C191A9B3E00CEB7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46DF70A191A9B3E00CEB7B0 /* Main.storyboard */; };
-		D46DF70F191A9B3E00CEB7B0 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DF70E191A9B3E00CEB7B0 /* AMViewController.m */; };
 		D46DF711191A9B3E00CEB7B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46DF710191A9B3E00CEB7B0 /* Images.xcassets */; };
+		D46DF730191AA47900CEB7B0 /* AMAdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DF72F191AA47900CEB7B0 /* AMAdviceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		D46DF707191A9B3E00CEB7B0 /* AMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAppDelegate.h; sourceTree = "<group>"; };
 		D46DF708191A9B3E00CEB7B0 /* AMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAppDelegate.m; sourceTree = "<group>"; };
 		D46DF70B191A9B3E00CEB7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D46DF70D191A9B3E00CEB7B0 /* AMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
-		D46DF70E191A9B3E00CEB7B0 /* AMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
 		D46DF710191A9B3E00CEB7B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D46DF72D191A9DA400CEB7B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
+		D46DF72E191AA47900CEB7B0 /* AMAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdviceViewController.h; sourceTree = "<group>"; };
+		D46DF72F191AA47900CEB7B0 /* AMAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdviceViewController.m; sourceTree = "<group>"; };
 		E7F78EF954B34A6F893277F0 /* libPods-AdviseMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdviseMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,8 +90,8 @@
 				D46DF707191A9B3E00CEB7B0 /* AMAppDelegate.h */,
 				D46DF708191A9B3E00CEB7B0 /* AMAppDelegate.m */,
 				D46DF70A191A9B3E00CEB7B0 /* Main.storyboard */,
-				D46DF70D191A9B3E00CEB7B0 /* AMViewController.h */,
-				D46DF70E191A9B3E00CEB7B0 /* AMViewController.m */,
+				D46DF72E191AA47900CEB7B0 /* AMAdviceViewController.h */,
+				D46DF72F191AA47900CEB7B0 /* AMAdviceViewController.m */,
 				D46DF710191A9B3E00CEB7B0 /* Images.xcassets */,
 				D46DF6FF191A9B3E00CEB7B0 /* Supporting Files */,
 			);
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46DF709191A9B3E00CEB7B0 /* AMAppDelegate.m in Sources */,
-				D46DF70F191A9B3E00CEB7B0 /* AMViewController.m in Sources */,
+				D46DF730191AA47900CEB7B0 /* AMAdviceViewController.m in Sources */,
 				D46DF705191A9B3E00CEB7B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

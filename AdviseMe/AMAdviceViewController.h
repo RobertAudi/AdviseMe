@@ -1,5 +1,5 @@
 //
-//  AMViewController.h
+//  AMAdviceViewController.h
 //  AdviseMe
 //
 //  Created by Robert Audi on 07/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AMViewController : UIViewController
+@interface AMAdviceViewController : UIViewController
 
 @end
