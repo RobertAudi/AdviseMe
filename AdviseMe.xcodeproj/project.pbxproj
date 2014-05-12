@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7143E957AF9C4851AB93B846 /* libPods-AdviseMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F78EF954B34A6F893277F0 /* libPods-AdviseMe.a */; };
+		D44A92EF192117BB00962786 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44A92EE192117BB00962786 /* AVFoundation.framework */; };
 		D46DF6F9191A9B3E00CEB7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46DF6F8191A9B3E00CEB7B0 /* Foundation.framework */; };
 		D46DF6FB191A9B3E00CEB7B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46DF6FA191A9B3E00CEB7B0 /* CoreGraphics.framework */; };
 		D46DF6FD191A9B3E00CEB7B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46DF6FC191A9B3E00CEB7B0 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		5AA8629045A942C9A09B7854 /* Pods-AdviseMe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdviseMe.xcconfig"; path = "Pods/Pods-AdviseMe.xcconfig"; sourceTree = "<group>"; };
+		D44A92EE192117BB00962786 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D46DF6F5191A9B3E00CEB7B0 /* AdviseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdviseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46DF6F8191A9B3E00CEB7B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D46DF6FA191A9B3E00CEB7B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -33,7 +35,7 @@
 		D46DF708191A9B3E00CEB7B0 /* AMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAppDelegate.m; sourceTree = "<group>"; };
 		D46DF70B191A9B3E00CEB7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D46DF710191A9B3E00CEB7B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D46DF72D191A9DA400CEB7B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
+		D46DF72D191A9DA400CEB7B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D46DF72E191AA47900CEB7B0 /* AMAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdviceViewController.h; sourceTree = "<group>"; };
 		D46DF72F191AA47900CEB7B0 /* AMAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdviceViewController.m; sourceTree = "<group>"; };
 		E7F78EF954B34A6F893277F0 /* libPods-AdviseMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdviseMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44A92EF192117BB00962786 /* AVFoundation.framework in Frameworks */,
 				D46DF6FB191A9B3E00CEB7B0 /* CoreGraphics.framework in Frameworks */,
 				D46DF6FD191A9B3E00CEB7B0 /* UIKit.framework in Frameworks */,
 				D46DF6F9191A9B3E00CEB7B0 /* Foundation.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		D46DF6F7191A9B3E00CEB7B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D44A92EE192117BB00962786 /* AVFoundation.framework */,
 				D46DF6F8191A9B3E00CEB7B0 /* Foundation.framework */,
 				D46DF6FA191A9B3E00CEB7B0 /* CoreGraphics.framework */,
 				D46DF6FC191A9B3E00CEB7B0 /* UIKit.framework */,

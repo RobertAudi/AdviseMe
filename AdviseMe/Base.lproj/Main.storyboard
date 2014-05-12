@@ -17,15 +17,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Qr4-bK-vOf">
-                                <rect key="frame" x="20" y="432" width="280" height="116"/>
+                                <rect key="frame" x="20" y="350" width="280" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="fjj-vk-bLi" appends="YES" id="xYR-aF-jKj"/>
-                                </connections>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72h-Zc-v8U">
                                 <rect key="frame" x="20" y="144" width="280" height="280"/>
@@ -37,26 +34,64 @@
                                     <action selector="adviceButtonTapped:" destination="584-mA-FVF" eventType="touchUpInside" id="0FU-Pi-Gao"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YMb-f1-jmH" userLabel="Action view">
+                                <rect key="frame" x="20" y="474" width="280" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pT2-KZ-D4J" userLabel="Speak button">
+                                        <rect key="frame" x="50" y="9" width="55" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="microphone">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="speak:" destination="584-mA-FVF" eventType="touchUpInside" id="UO9-5W-yeA"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9x-qb-lRo" userLabel="Good button">
+                                        <rect key="frame" x="180" y="9" width="55" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="good">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="activateGoodForm:" destination="584-mA-FVF" eventType="touchUpInside" id="qAY-5G-9U0"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kg-L5-Dde" userLabel="Bad button">
+                                        <rect key="frame" x="180" y="9" width="55" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="pirate">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="activateBadForm:" destination="584-mA-FVF" eventType="touchUpInside" id="UPX-9A-VOK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="adviceButton" destination="72h-Zc-v8U" id="PDT-Pa-bv5"/>
                         <outlet property="adviceLabel" destination="Qr4-bK-vOf" id="ECV-L6-8CH"/>
+                        <outlet property="badButton" destination="5Kg-L5-Dde" id="MtS-UL-uiY"/>
+                        <outlet property="goodButton" destination="C9x-qb-lRo" id="wF0-Et-Xhb"/>
+                        <outlet property="speakButton" destination="pT2-KZ-D4J" id="4mX-Tc-oAw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOo-RH-TV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="fjj-vk-bLi">
-                    <connections>
-                        <action selector="adviceTapped:" destination="584-mA-FVF" id="TeX-YW-1S3"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="309" y="41"/>
         </scene>
     </scenes>
     <resources>
         <image name="advice-button" width="320" height="320"/>
+        <image name="good" width="64" height="64"/>
+        <image name="microphone" width="128" height="128"/>
+        <image name="pirate" width="64" height="64"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
